@@ -6,6 +6,8 @@ pads.forEach((pad) => {
   const sound = new Audio(`sounds/${pad.dataset.sound}.wav`);
 
   pad.addEventListener('click', () => {
+    // Volta o som para o começo, mesmo que ele ainda esteja tocando
+    sound.currentTime = 0;
     sound.play();
   });
 });
