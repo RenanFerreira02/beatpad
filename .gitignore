@@ -1,0 +1,6 @@
+# Arquivos que o sistema operacional cria sozinho
+.DS_Store
+Thumbs.db
+
+# Configurações pessoais do editor
+.vscode/
