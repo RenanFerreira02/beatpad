@@ -11,3 +11,14 @@ pads.forEach((pad) => {
     sound.play();
   });
 });
+
+// Quando uma tecla é apertada, procura o pad daquela tecla e clica nele
+document.addEventListener('keydown', (event) => {
+  const key = event.key.toLowerCase();
+
+  pads.forEach((pad) => {
+    if (pad.dataset.key === key) {
+      pad.click();
+    }
+  });
+});
