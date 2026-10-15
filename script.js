@@ -12,6 +12,11 @@ pads.forEach((pad) => {
 
     // Acende o pad
     pad.classList.add('playing');
+
+    // Apaga o pad depois de 150 milissegundos
+    setTimeout(() => {
+      pad.classList.remove('playing');
+    }, 150);
   });
 });
 

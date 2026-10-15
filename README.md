@@ -28,6 +28,7 @@ git log --oneline
 | `05-som-do-comeco` | currentTime = 0 para o som recomeçar a cada toque |
 | `06-eventos-de-teclado` | keydown e event.key: cada tecla clica no pad dela |
 | `07-pad-aceso` | classList.add acende o pad tocado, com prefers-reduced-motion no CSS |
+| `08-apagando-com-timer` | setTimeout apaga o pad um instante depois de acender |
 
 ## O que aprendi
 
