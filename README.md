@@ -4,7 +4,7 @@ Bateria virtual de 8 pads, tocada com o mouse ou com o teclado. Projeto de aula 
 
 ## Deploy
 
-O link entra na etapa `01-pads-em-html-e-css`, quando a página abrir no navegador.
+https://beatpad-renanferreira-dev.vercel.app
 
 ## Como rodar
 
@@ -21,6 +21,7 @@ git log --oneline
 | Etapa | O que ensina |
 |---|---|
 | `00-ponto-de-partida` | O projeto vazio: README, .gitignore, LICENSE e index.html |
+| `01-pads-em-html-e-css` | A página do design em HTML e CSS, ainda sem JavaScript |
 
 ## O que aprendi
 

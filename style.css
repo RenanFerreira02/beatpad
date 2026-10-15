@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 56px 24px;
+  background: #121417;
+  color: #f2efe9;
+  font-family: 'Archivo', sans-serif;
+}
+
+/* Cabeçalho */
+
+.page-header,
+.drum-machine {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.intro {
+  margin: 0;
+  font-size: 18px;
+  color: #b9bec7;
+}
+
+.keys-hint {
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  color: #b9bec7;
+}
+
+/* Painel com os pads */
+
+.drum-machine {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px;
+  background: #1b1e23;
+  border: 1px solid #2a2e35;
+  border-radius: 28px;
+}
+
+.pad {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 180px;
+  padding: 22px;
+  background: #22252b;
+  color: #f2efe9;
+  border: 2px solid #3a3f47;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #0c0d10;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.pad:focus-visible {
+  outline: 3px solid #7cc4ff;
+  outline-offset: 4px;
+}
+
+.pad-key {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pad-name {
+  font-size: 18px;
+  font-weight: 600;
+}
