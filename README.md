@@ -22,6 +22,7 @@ git log --oneline
 |---|---|
 | `00-ponto-de-partida` | O projeto vazio: README, .gitignore, LICENSE e index.html |
 | `01-pads-em-html-e-css` | A página do design em HTML e CSS, ainda sem JavaScript |
+| `02-conectando-o-script` | O script.js ligado à página com defer e os pads selecionados com querySelectorAll |
 
 ## O que aprendi
 
