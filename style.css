@@ -75,6 +75,7 @@ h1 {
   font-family: inherit;
   text-align: left;
   cursor: pointer;
+  transition: transform 80ms;
 }
 
 .pad:focus-visible {
@@ -92,4 +93,26 @@ h1 {
 .pad-name {
   font-size: 18px;
   font-weight: 600;
+}
+
+/* Pad tocando: acende e afunda */
+
+.pad.playing {
+  background: #ff8a3d;
+  color: #16181c;
+  border-color: #ffd2b0;
+  box-shadow: none;
+  transform: translateY(4px) scale(0.98);
+}
+
+/* Quem pediu menos movimento no sistema: o pad só acende, sem afundar */
+
+@media (prefers-reduced-motion: reduce) {
+  .pad {
+    transition: none;
+  }
+
+  .pad.playing {
+    transform: none;
+  }
 }

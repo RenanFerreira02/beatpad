@@ -27,6 +27,7 @@ git log --oneline
 | `04-tocando-sons` | A pasta sounds/ e o new Audio() tocando o som de cada pad no clique |
 | `05-som-do-comeco` | currentTime = 0 para o som recomeçar a cada toque |
 | `06-eventos-de-teclado` | keydown e event.key: cada tecla clica no pad dela |
+| `07-pad-aceso` | classList.add acende o pad tocado, com prefers-reduced-motion no CSS |
 
 ## O que aprendi
 

@@ -9,6 +9,9 @@ pads.forEach((pad) => {
     // Volta o som para o começo, mesmo que ele ainda esteja tocando
     sound.currentTime = 0;
     sound.play();
+
+    // Acende o pad
+    pad.classList.add('playing');
   });
 });
 
